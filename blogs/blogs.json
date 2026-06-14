@@ -1,0 +1,61 @@
+{
+  "provider": "bitget",
+  "url": "https://www.bitget.com/api-doc/common/changelog",
+  "pulled": "2026-06-13",
+  "posts": [
+    {
+      "title": "Transfer Records pagination update: idLessThan mode, pageNum deprecated",
+      "date": "2026-01-29",
+      "url": "https://www.bitget.com/api-doc/common/changelog",
+      "summary": "Transfer Records now supports idLessThan pagination mode; the pageNum parameter is deprecated."
+    },
+    {
+      "title": "WebSocket books1 channel push frequency optimized to 10ms",
+      "date": "2026-01-07",
+      "url": "https://www.bitget.com/api-doc/common/changelog",
+      "summary": "WebSocket order book channel (books1) push frequency optimized to 10ms for classic accounts."
+    },
+    {
+      "title": "New off_close orderSource enum value added to futures historical orders",
+      "date": "2026-01-06",
+      "url": "https://www.bitget.com/api-doc/common/changelog",
+      "summary": "Added 'off_close' (Delisting Liquidation) enum value to the orderSource response parameter."
+    },
+    {
+      "title": "liqPrice field added to futures historical order responses",
+      "date": "2025-11-27",
+      "url": "https://www.bitget.com/api-doc/common/changelog",
+      "summary": "New 'liqPrice' field added to futures historical order responses."
+    },
+    {
+      "title": "WebSocket ADL notification channel and FAQ update",
+      "date": "2025-11-26",
+      "url": "https://www.bitget.com/api-doc/common/changelog",
+      "summary": "WebSocket now includes a new ADL notification channel. New FAQ entry Q15 added to documentation."
+    },
+    {
+      "title": "isRwa field added to contract information API",
+      "date": "2025-11-19",
+      "url": "https://www.bitget.com/api-doc/common/changelog",
+      "summary": "New 'isRwa' field added to contract information API responses."
+    },
+    {
+      "title": "WebSocket futures equity channel and order placement Broker API Code support",
+      "date": "2025-11-08",
+      "url": "https://www.bitget.com/api-doc/common/changelog",
+      "summary": "WebSocket introduces a new futures equity channel. Order placement channel now supports passing Broker API Code for rebates."
+    },
+    {
+      "title": "New Maximum Openable Quantity and Estimated Liquidation Price API endpoints",
+      "date": "2025-11-07",
+      "url": "https://www.bitget.com/api-doc/common/changelog",
+      "summary": "New Maximum Openable Quantity API endpoint and Estimated Liquidation Price API endpoint added."
+    },
+    {
+      "title": "Three new broker commission inquiry interfaces launched",
+      "date": "2025-11-06",
+      "url": "https://www.bitget.com/api-doc/common/changelog",
+      "summary": "Three new broker commission inquiry interfaces launched for total commission, order commission, and rebate information."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Bitget",
+  "description": "Bitget is a cryptocurrency exchange and copy trading platform offering REST and WebSocket APIs for spot trading, futures (USDT-M, USDC-M, and Coin-M perpetual contracts), margin trading, copy trading, broker services, and earn products.",
+  "url": "https://www.bitget.com",
+  "logo": "https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://github.com/BitgetLimited",
+    "https://t.me/bitgetOpenapi"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "API Support",
+    "url": "https://www.bitget.com/support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Bitget APIs",
+    "itemListElement": [
+      {
+        "@type": "WebAPI",
+        "name": "Bitget Spot Trading API",
+        "description": "REST API for spot trading on Bitget including market data, order management, account queries, wallet operations, and sub-account management.",
+        "documentation": "https://www.bitget.com/api-doc/spot/intro",
+        "url": "https://api.bitget.com",
+        "termsOfService": "https://www.bitget.com/terms-of-use",
+        "provider": {
+          "@type": "Organization",
+          "name": "Bitget"
+        }
+      },
+      {
+        "@type": "WebAPI",
+        "name": "Bitget Futures Trading API",
+        "description": "REST API for USDT-M, USDC-M, and Coin-M perpetual futures contracts including market data, position management, order execution, trigger orders, and VIP fee rate queries.",
+        "documentation": "https://www.bitget.com/api-doc/contract/intro",
+        "url": "https://api.bitget.com",
+        "termsOfService": "https://www.bitget.com/terms-of-use",
+        "provider": {
+          "@type": "Organization",
+          "name": "Bitget"
+        }
+      },
+      {
+        "@type": "WebAPI",
+        "name": "Bitget Copy Trading API",
+        "description": "REST API for copy trading functionality covering futures copy trade and spot copy trade, including trader order tracking and profit summary endpoints for both leaders and followers.",
+        "documentation": "https://www.bitget.com/api-doc/copytrading/intro",
+        "url": "https://api.bitget.com",
+        "termsOfService": "https://www.bitget.com/terms-of-use",
+        "provider": {
+          "@type": "Organization",
+          "name": "Bitget"
+        }
+      },
+      {
+        "@type": "WebAPI",
+        "name": "Bitget Broker API",
+        "description": "REST API for non-disclosed brokers to build independent trading platforms on top of Bitget infrastructure, including sub-account creation, API key management, commission tracking, and permission control.",
+        "documentation": "https://www.bitget.com/api-doc/broker/intro",
+        "url": "https://api.bitget.com",
+        "termsOfService": "https://www.bitget.com/terms-of-use",
+        "provider": {
+          "@type": "Organization",
+          "name": "Bitget"
+        }
+      },
+      {
+        "@type": "WebAPI",
+        "name": "Bitget WebSocket API",
+        "description": "Real-time WebSocket API providing public and private channels for market data (tickers, candles, order book depth, trades) and private account events (orders, positions, balances) for spot and futures markets.",
+        "documentation": "https://www.bitget.com/api-doc/common/websocket-intro",
+        "url": "wss://ws.bitget.com/v2/ws/public",
+        "termsOfService": "https://www.bitget.com/terms-of-use",
+        "provider": {
+          "@type": "Organization",
+          "name": "Bitget"
+        }
+      },
+      {
+        "@type": "WebAPI",
+        "name": "Bitget Earn API",
+        "description": "REST API for Bitget Earn products including staking, savings, and other yield-generating products available on the platform.",
+        "documentation": "https://www.bitget.com/api-doc/common/intro",
+        "url": "https://api.bitget.com",
+        "termsOfService": "https://www.bitget.com/terms-of-use",
+        "provider": {
+          "@type": "Organization",
+          "name": "Bitget"
+        }
+      },
+      {
+        "@type": "WebAPI",
+        "name": "Bitget Margin Trading API",
+        "description": "REST API for cross and isolated margin trading on Bitget, enabling leveraged spot trading with account management, borrowing, and order execution endpoints.",
+        "documentation": "https://www.bitget.com/api-doc/margin/intro",
+        "url": "https://api.bitget.com",
+        "termsOfService": "https://www.bitget.com/terms-of-use",
+        "provider": {
+          "@type": "Organization",
+          "name": "Bitget"
+        }
+      }
+    ]
+  }
+}
