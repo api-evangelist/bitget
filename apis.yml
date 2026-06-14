@@ -1,0 +1,197 @@
+name: Bitget
+description: Bitget is a cryptocurrency exchange and copy trading platform offering
+  REST and WebSocket APIs for spot trading, futures (USDT-M, USDC-M, and Coin-M
+  perpetual contracts), margin trading, copy trading, broker services, and earn
+  products. Developers can access real-time market data, execute trades, manage
+  accounts and sub-accounts, and integrate copy trading leader and follower
+  workflows.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/bitget/refs/heads/main/apis.yml
+version: "0.19"
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+
+tags:
+  - Cryptocurrency
+  - Exchange
+  - Spot Trading
+  - Futures
+  - Perpetual Contracts
+  - Copy Trading
+  - WebSocket
+  - Finance
+
+apis:
+
+  - name: Bitget Spot Trading API
+    description: REST API for spot trading on Bitget including market data, order
+      management, account queries, wallet operations, and sub-account management.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.bitget.com/api-doc/spot/intro
+    baseURL: https://api.bitget.com
+    tags:
+      - Spot Trading
+      - Market Data
+      - Orders
+      - Cryptocurrency
+    properties:
+      - type: Documentation
+        url: https://www.bitget.com/api-doc/spot/intro
+      - type: OpenAPI
+        url: https://www.bitget.com/api-doc/spot/intro
+    contact:
+      - FN: Bitget API Support
+        url: https://www.bitget.com/support
+        email: ""
+
+  - name: Bitget Futures Trading API
+    description: REST API for USDT-M, USDC-M, and Coin-M perpetual futures contracts
+      including market data, position management, order execution, trigger orders,
+      and VIP fee rate queries.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.bitget.com/api-doc/contract/intro
+    baseURL: https://api.bitget.com
+    tags:
+      - Futures
+      - Perpetual Contracts
+      - USDT-M
+      - USDC-M
+      - Coin-M
+      - Cryptocurrency
+    properties:
+      - type: Documentation
+        url: https://www.bitget.com/api-doc/contract/intro
+    contact:
+      - FN: Bitget API Support
+        url: https://www.bitget.com/support
+        email: ""
+
+  - name: Bitget Copy Trading API
+    description: REST API for copy trading functionality covering futures copy trade
+      and spot copy trade, including trader order tracking and profit summary
+      endpoints for both leaders and followers.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.bitget.com/api-doc/copytrading/intro
+    baseURL: https://api.bitget.com
+    tags:
+      - Copy Trading
+      - Social Trading
+      - Futures
+      - Spot Trading
+    properties:
+      - type: Documentation
+        url: https://www.bitget.com/api-doc/copytrading/intro
+    contact:
+      - FN: Bitget API Support
+        url: https://www.bitget.com/support
+        email: ""
+
+  - name: Bitget Broker API
+    description: REST API for non-disclosed brokers to build independent trading
+      platforms on top of Bitget infrastructure, including sub-account creation,
+      API key management, commission tracking, and permission control.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.bitget.com/api-doc/broker/intro
+    baseURL: https://api.bitget.com
+    tags:
+      - Broker
+      - Sub-accounts
+      - White Label
+      - Cryptocurrency
+    properties:
+      - type: Documentation
+        url: https://www.bitget.com/api-doc/broker/intro
+    contact:
+      - FN: Bitget API Support
+        url: https://www.bitget.com/support
+        email: ""
+
+  - name: Bitget WebSocket API
+    description: Real-time WebSocket API providing public and private channels for
+      market data (tickers, candles, order book depth, trades) and private account
+      events (orders, positions, balances) for spot and futures markets.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.bitget.com/api-doc/common/websocket-intro
+    baseURL: wss://ws.bitget.com/v2/ws/public
+    tags:
+      - WebSocket
+      - Real-time
+      - Market Data
+      - Streaming
+    properties:
+      - type: Documentation
+        url: https://www.bitget.com/api-doc/common/websocket-intro
+    contact:
+      - FN: Bitget API Support
+        url: https://www.bitget.com/support
+        email: ""
+
+  - name: Bitget Earn API
+    description: REST API for Bitget Earn products including staking, savings, and
+      other yield-generating products available on the platform.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.bitget.com/api-doc/common/intro
+    baseURL: https://api.bitget.com
+    tags:
+      - Earn
+      - Staking
+      - Savings
+      - Cryptocurrency
+    properties:
+      - type: Documentation
+        url: https://www.bitget.com/api-doc/common/intro
+    contact:
+      - FN: Bitget API Support
+        url: https://www.bitget.com/support
+        email: ""
+
+  - name: Bitget Margin Trading API
+    description: REST API for cross and isolated margin trading on Bitget, enabling
+      leveraged spot trading with account management, borrowing, and order execution
+      endpoints.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.bitget.com/api-doc/margin/intro
+    baseURL: https://api.bitget.com
+    tags:
+      - Margin Trading
+      - Leverage
+      - Spot Trading
+      - Cryptocurrency
+    properties:
+      - type: Documentation
+        url: https://www.bitget.com/api-doc/margin/intro
+    contact:
+      - FN: Bitget API Support
+        url: https://www.bitget.com/support
+        email: ""
+
+common:
+  - type: Authentication
+    url: https://www.bitget.com/api-doc/common/intro
+  - type: RateLimits
+    url: /rate-limits/rate-limits.md
+  - type: Plans
+    url: /plans/plans.md
+  - type: FinOps
+    url: /finops/finops.md
+  - type: ChangeLog
+    url: https://www.bitget.com/api-doc/common/changelog
+  - type: Support
+    url: https://www.bitget.com/support
+  - type: TermsOfService
+    url: https://www.bitget.com/terms-of-use
+  - type: PrivacyPolicy
+    url: https://www.bitget.com/privacy-policy
+  - type: StatusPage
+    url: https://status.bitget.com
+  - type: GettingStarted
+    url: https://www.bitget.com/api-doc/common/intro
+  - type: SDKs
+    url: https://github.com/BitgetLimited
+  - type: Telegram
+    url: https://t.me/bitgetOpenapi
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
