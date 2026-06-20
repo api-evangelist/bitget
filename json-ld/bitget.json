@@ -4,7 +4,7 @@
   "name": "Bitget",
   "description": "Bitget is a cryptocurrency exchange and copy trading platform offering REST and WebSocket APIs for spot trading, futures (USDT-M, USDC-M, and Coin-M perpetual contracts), margin trading, copy trading, broker services, and earn products.",
   "url": "https://www.bitget.com",
-  "logo": "https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://github.com/BitgetLimited",
     "https://t.me/bitgetOpenapi"

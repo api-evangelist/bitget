@@ -5,7 +5,7 @@ description: Bitget is a cryptocurrency exchange and copy trading platform offer
   products. Developers can access real-time market data, execute trades, manage
   accounts and sub-accounts, and integrate copy trading leader and follower
   workflows.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/bitget/refs/heads/main/apis.yml
 version: "0.19"
 created: "2026-06-13"
@@ -27,7 +27,7 @@ apis:
   - name: Bitget Spot Trading API
     description: REST API for spot trading on Bitget including market data, order
       management, account queries, wallet operations, and sub-account management.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.bitget.com/api-doc/spot/intro
     baseURL: https://api.bitget.com
     tags:
@@ -49,7 +49,7 @@ apis:
     description: REST API for USDT-M, USDC-M, and Coin-M perpetual futures contracts
       including market data, position management, order execution, trigger orders,
       and VIP fee rate queries.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.bitget.com/api-doc/contract/intro
     baseURL: https://api.bitget.com
     tags:
@@ -71,7 +71,7 @@ apis:
     description: REST API for copy trading functionality covering futures copy trade
       and spot copy trade, including trader order tracking and profit summary
       endpoints for both leaders and followers.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.bitget.com/api-doc/copytrading/intro
     baseURL: https://api.bitget.com
     tags:
@@ -91,7 +91,7 @@ apis:
     description: REST API for non-disclosed brokers to build independent trading
       platforms on top of Bitget infrastructure, including sub-account creation,
       API key management, commission tracking, and permission control.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.bitget.com/api-doc/broker/intro
     baseURL: https://api.bitget.com
     tags:
@@ -111,7 +111,7 @@ apis:
     description: Real-time WebSocket API providing public and private channels for
       market data (tickers, candles, order book depth, trades) and private account
       events (orders, positions, balances) for spot and futures markets.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.bitget.com/api-doc/common/websocket-intro
     baseURL: wss://ws.bitget.com/v2/ws/public
     tags:
@@ -130,7 +130,7 @@ apis:
   - name: Bitget Earn API
     description: REST API for Bitget Earn products including staking, savings, and
       other yield-generating products available on the platform.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.bitget.com/api-doc/common/intro
     baseURL: https://api.bitget.com
     tags:
@@ -150,7 +150,7 @@ apis:
     description: REST API for cross and isolated margin trading on Bitget, enabling
       leveraged spot trading with account management, borrowing, and order execution
       endpoints.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.bitget.com/api-doc/margin/intro
     baseURL: https://api.bitget.com
     tags:
