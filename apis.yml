@@ -167,6 +167,8 @@ apis:
         email: ""
 
 common:
+  - type: DomainSecurity
+    url: security/bitget-domain-security.yml
   - type: Authentication
     url: https://www.bitget.com/api-doc/common/intro
   - type: RateLimits
