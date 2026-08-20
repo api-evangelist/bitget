@@ -44,6 +44,11 @@ apis:
     tags:
       - Spot Trading
       - Market Data
+      - Order
+      - Cryptocurrency
+    tags_raw:
+      - Spot Trading
+      - Market Data
       - Orders
       - Cryptocurrency
     properties:
@@ -106,6 +111,11 @@ apis:
     humanURL: https://www.bitget.com/api-doc/broker/intro
     baseURL: https://api.bitget.com
     tags:
+      - Brokers
+      - Subaccounts
+      - White Label
+      - Cryptocurrency
+    tags_raw:
       - Broker
       - Sub-accounts
       - White Label
@@ -126,6 +136,11 @@ apis:
     humanURL: https://www.bitget.com/api-doc/common/websocket-intro
     baseURL: wss://ws.bitget.com/v2/ws/public
     tags:
+      - WebSocket
+      - Real-Time
+      - Market Data
+      - Streaming
+    tags_raw:
       - WebSocket
       - Real-time
       - Market Data
