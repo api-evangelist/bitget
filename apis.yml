@@ -204,6 +204,8 @@ apis:
         email: ""
 
 common:
+  - type: Website
+    url: https://www.bitget.com/
   - type: DomainSecurity
     url: security/bitget-domain-security.yml
   - type: Authentication
