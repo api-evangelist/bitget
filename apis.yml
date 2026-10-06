@@ -31,7 +31,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitget.png
 url: https://raw.githubusercontent.com/api-evangelist/bitget/refs/heads/main/apis.yml
 version: "0.19"
 created: "2026-06-13"
-modified: "2026-06-13"
+modified: '2026-10-06'
 specificationVersion: '0.23'
 
 tags:
@@ -204,6 +204,8 @@ apis:
         email: ""
 
 common:
+  - url: https://www.bitget.com/blog
+    type: Blog
   - type: Website
     url: https://www.bitget.com/
   - type: DomainSecurity
