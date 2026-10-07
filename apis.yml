@@ -212,12 +212,6 @@ common:
     url: security/bitget-domain-security.yml
   - type: Authentication
     url: https://www.bitget.com/api-doc/common/intro
-  - type: RateLimits
-    url: /rate-limits/rate-limits.md
-  - type: Plans
-    url: /plans/plans.md
-  - type: FinOps
-    url: /finops/finops.md
   - type: ChangeLog
     url: https://www.bitget.com/api-doc/common/changelog
   - type: Support
