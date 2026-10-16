@@ -57,5 +57,17 @@
       "url": "https://www.bitget.com/api-doc/common/changelog",
       "summary": "Three new broker commission inquiry interfaces launched for total commission, order commission, and rebate information."
     }
-  ]
+  ],
+  "repo": "bitget",
+  "feeds": [
+    {
+      "source": "https://www.bitget.com/blog",
+      "feed_url": "https://www.bitget.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
 }
