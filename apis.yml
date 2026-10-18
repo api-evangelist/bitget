@@ -122,7 +122,7 @@ apis:
     humanURL: https://www.bitget.com/api-doc/broker/intro
     baseURL: https://api.bitget.com
     tags:
-      - Brokers
+      - Brokerage
       - Subaccounts
       - White Label
       - Cryptocurrency
@@ -131,6 +131,7 @@ apis:
       - Sub-accounts
       - White Label
       - Cryptocurrency
+      - Brokers
     properties:
       - type: Documentation
         url: https://www.bitget.com/api-doc/broker/intro
