@@ -64,46 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bitget is a cryptocurrency exchange and copy trading platform with REST and
-WebSocket APIs for spot trading, futures (USDT-M, USDC-M, and Coin-M perpetual
-contracts), margin trading, copy trading, broker services, and earn products.
-The platform serves individual traders, algorithmic traders, copy trading leaders
-and followers, and third-party brokers building white-label trading platforms.
+Bitget is a cryptocurrency exchange and copy trading platform offering REST and WebSocket APIs for spot trading, futures (USDT-M, USDC-M, and Coin-M perpetual contracts), margin trading, copy trading, broker services, and earn products. Developers can access real-time market data, execute trades, manage accounts and sub-accounts, and integrate copy trading leader and follower workflows.
 
-## APIs
+**Areas:** Cryptocurrency · Exchange · Spot Trading · Futures · Perpetual Contracts · Copy Trading · WebSocket · Finance
 
-| API | Description |
-|-----|-------------|
-| [Spot Trading API](https://www.bitget.com/api-doc/spot/intro) | Market data, order management, wallet operations |
-| [Futures Trading API](https://www.bitget.com/api-doc/contract/intro) | USDT-M, USDC-M, Coin-M perpetual contracts |
-| [Copy Trading API](https://www.bitget.com/api-doc/copytrading/intro) | Futures and spot copy trade for leaders/followers |
-| [Broker API](https://www.bitget.com/api-doc/broker/intro) | Sub-account management for white-label platforms |
-| [WebSocket API](https://www.bitget.com/api-doc/common/websocket-intro) | Real-time market data and account event streaming |
-| [Earn API](https://www.bitget.com/api-doc/common/intro) | Staking and savings product management |
-| [Margin Trading API](https://www.bitget.com/api-doc/margin/intro) | Cross and isolated margin leveraged trading |
+## Bitget on APIs.io
 
-## Base URLs
+Everything profiled for Bitget is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bitget/](https://apis.io/providers/bitget/)** — or go straight to one of the APIs or properties below.
 
-- REST: `https://api.bitget.com`
-- WebSocket Public: `wss://ws.bitget.com/v2/ws/public`
-- WebSocket Private: `wss://ws.bitget.com/v2/ws/private`
+### APIs (7)
 
-## Authentication
+- [Bitget Spot Trading API](https://apis.io/apis/bitget/bitget-spot-trading-api/) — REST API for spot trading on Bitget including market data, order management, account queries, wallet operations, and sub-account management.
+- [Bitget Futures Trading API](https://apis.io/apis/bitget/bitget-futures-trading-api/) — REST API for USDT-M, USDC-M, and Coin-M perpetual futures contracts including market data, position management, order execution, trigger orders, and VIP fee…
+- [Bitget Copy Trading API](https://apis.io/apis/bitget/bitget-copy-trading-api/) — REST API for copy trading functionality covering futures copy trade and spot copy trade, including trader order tracking and profit summary endpoints for…
+- [Bitget Broker API](https://apis.io/apis/bitget/bitget-broker-api/) — REST API for non-disclosed brokers to build independent trading platforms on top of Bitget infrastructure, including sub-account creation, API key…
+- [Bitget WebSocket API](https://apis.io/apis/bitget/bitget-websocket-api/) — Real-time WebSocket API providing public and private channels for market data (tickers, candles, order book depth, trades) and private account events…
+- [Bitget Earn API](https://apis.io/apis/bitget/bitget-earn-api/) — REST API for Bitget Earn products including staking, savings, and other yield-generating products available on the platform.
+- [Bitget Margin Trading API](https://apis.io/apis/bitget/bitget-margin-trading-api/) — REST API for cross and isolated margin trading on Bitget, enabling leveraged spot trading with account management, borrowing, and order execution endpoints.
 
-All private endpoints require HMAC SHA256 or RSA authentication using:
-- `ACCESS-KEY` — API key identifier
-- `ACCESS-SIGN` — Base64-encoded HMAC SHA256 or RSA signature
-- `ACCESS-TIMESTAMP` — Unix timestamp in milliseconds
-- `ACCESS-PASSPHRASE` — User-defined passphrase
+### Published properties
 
-## Resources
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- [API Documentation](https://www.bitget.com/api-doc/common/intro)
-- [Rate Limits](rate-limits/rate-limits.md)
-- [Plans](plans/plans.md)
-- [FinOps](finops/finops.md)
-- [Fee Schedule](https://www.bitget.com/fee)
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bitget Domain Security](https://apis.io/security/bitget/bitget-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bitget.com/)
+- [Getting started](https://www.bitget.com/api-doc/common/intro)
+- [Support](https://www.bitget.com/support)
 - [Changelog](https://www.bitget.com/api-doc/common/changelog)
-- [Support Center](https://www.bitget.com/support)
-- [Telegram (@bitgetOpenapi)](https://t.me/bitgetOpenapi)
-- [GitHub SDKs](https://github.com/BitgetLimited)
+- [Blog](https://www.bitget.com/blog)
+- [Terms of service](https://www.bitget.com/terms-of-use)
+- [Privacy policy](https://www.bitget.com/privacy-policy)
+- [Status](https://status.bitget.com)
+
+## API Evangelist rating
+
+**Kin Score 24.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.1** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bitget/](https://apis.io/providers/bitget/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bitget: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bitget/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
